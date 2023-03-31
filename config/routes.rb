@@ -1,8 +1,8 @@
 Rails.application.routes.draw do  
-  get "/home" => "products#hello"
+  get "/index" => "products#hello"
 end
 
 
 
   # root "products#hello"
-  # get "/home", controller: "products", action: "hello"
+  # get "/index", controller: "products", action: "hello"
