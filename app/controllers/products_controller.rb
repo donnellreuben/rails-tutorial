@@ -1,5 +1,6 @@
 class ProductsController < ApplicationController
-  def hello
-    render html: "Hello, world!"
+  def index
+    @products = Product.all
+    render json: {message: "Hello"}
   end
 end
